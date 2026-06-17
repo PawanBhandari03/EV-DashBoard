@@ -1,14 +1,15 @@
-import'./NavBar.css'
+import './NavBar.css'
 
 const NavBar = () => {
-    return(
+    return (
         <div className='nav'>
-            <div className ="nav-logo">EV-olution</div>
-            <ul className="nav-menu"></ul>
-                <li>Home</li>
-                <li>Explore</li>
-                <li>About</li>
-                <li className ='nav-contact'>Contact</li>
+            <div className="nav-logo">EV-olution</div>
+            <ul className="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#about">About</a></li>
+                <li className='nav-contact'><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     )
 }
